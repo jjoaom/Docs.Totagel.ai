@@ -33,8 +33,8 @@ Este site documenta todas as ferramentas disponíveis em nossa plataforma IA, aj
 - [Bate-papo da Web IA](Interação%20IA/bate-papo-web-ia.md)
 
 ### Visão Computacional e Desenvolvimento
-- [Gerador de Código IA](visao-computacional-desenvolvimento/codigo-ia.md)
-- [Visão de IA](visao-computacional-desenvolvimento/visao-ia.md)
+- [Gerador de Código IA](Vis%C3%A3o%20e%20Desenvolvimento%20de%20C%C3%B3digo/codigo-ia.md)
+- [Visão de IA](Vis%C3%A3o%20e%20Desenvolvimento%20de%20C%C3%B3digo/visao-ia.md)
 
 ## Acesso ao Atendimento TotalGen
 [Acesse aqui](https://chat.nbh.com.br/my-typebot-ts07brk)
