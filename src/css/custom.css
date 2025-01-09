@@ -1,0 +1,52 @@
+:root {
+  --ifm-color-primary: #8660aa;
+  --ifm-color-primary-dark: #7a5699;
+  --ifm-color-primary-darker: #6f4e8b;
+  --ifm-color-primary-darkest: #614376;
+  --ifm-color-primary-light: #9271b3;
+  --ifm-color-primary-lighter: #9b7cba;
+  --ifm-color-primary-lightest: #aa8ecc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --image-box-border-color: var(--ifm-color-primary);
+  --image-box-hover-border-color: var(--ifm-color-primary-dark);
+  --image-box-color: var(--ifm-color-default);
+  --image-box-hover-color: var(--ifm-color-inverse);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b39ddb;
+  --ifm-color-primary-dark: #9575cd;
+  --ifm-color-primary-darker: #7e57c2;
+  --ifm-color-primary-darkest: #673ab7;
+  --ifm-color-primary-light: #d1c4e9;
+  --ifm-color-primary-lighter: #e8eaf6;
+  --ifm-color-primary-lightest: #ede7f6;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --image-box-border-color: var(--ifm-color-primary);
+  --image-box-hover-border-color: var(--ifm-color-primary-dark);
+  --image-box-color: var(--ifm-color-default);
+  --image-box-hover-color: var(--ifm-color-inverse);
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+  border: 1px solid var(--image-box-border-color);
+  padding: 10px;
+  background-color: transparent;
+  color: var(--image-box-color);
+  transition: border-color 0.3s ease;
+  text-align: center;
+  min-width: 150px;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+
+.image-box:hover {
+  border-color: var(--image-box-hover-border-color);
+  color: var(--image-box-hover-color);
+}
