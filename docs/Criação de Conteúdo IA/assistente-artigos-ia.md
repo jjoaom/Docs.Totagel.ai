@@ -21,17 +21,15 @@ Descreva sobre o que é seu artigo
 
 ## Número de Tópicos
 Digite o número de tópicos desejado
-**3**
 
 ## Número Máximo de Palavras por Tópico
 Digite o número máximo de palavras por tópico
-**20**
 
 ## Palavras-chave
 Digite suas palavras-chave
 **0 / 1000**
 
-## Ou
+### Ou
 
 ## Número de Palavras-chave
 Digite o número de palavras-chave desejado
@@ -42,40 +40,40 @@ Digite o número de palavras-chave desejado
 ### Comprimento do Artigo
 **1000**
 
-### Modelos de IA
-- gpt-3.5-turbo-0125
-- gpt-4
-- gpt-4o
-- gpt-4o-mini
-- gpt-4-0125-preview
-- gpt-4-turbo-2024-04-09
-- o1-preview
-- o1-mini
+## Modelos de IA
+- OpenAI Gpt 3.5 Turbo 0125
+- OpenAI Gpt 4
+- OpenAI Gpt 4o
+- OpenAI Gpt 4o Mini
+- OpenAI Gpt 4 Turbo
+- OpenAI Gpt 4 Turbo with Vision
+- OpenAI O1 Preview
+- OpenAI O1 Mini
 
-### Tom de Escrita
-- Professional
-- Exciting
-- Friendly
-- Witty
-- Humorous
-- Convincing
-- Empathetic
-- Inspiring
-- Supportive
-- Trusting
-- Playful
-- Excited
-- Positive
-- Negative
-- Engaging
-- Worried
-- Urgent
-- Passionate
-- Informative
-- Funny
+## Tom de escrita
+- Profissional
+- Empolgante
+- Amigável
+- Engraçado
+- Humorístico
+- Convincente
+- Empático
+- Inspirador
+- Solidário
+- Confiável
+- Brincalhão
+- Animado
+- Positivo
+- Negativo
+- Envolvente
+- Preocupado
+- Urgente
+- Apaixonado
+- Informativo
+- Divertido
 - Casual
-- Sarcastic
-- Dramatic
+- Sarcástico
+- Dramático
 
 ### Criatividade
 - Repetitivo

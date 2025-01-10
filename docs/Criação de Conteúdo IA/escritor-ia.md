@@ -99,8 +99,104 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 ### Atributos de Escrita
 
-- **Modelos de IA**: gpt-3.5-turbo-0125, gpt-4, gpt-4o, gpt-4o-mini, gpt-4-0125-preview, gpt-4-turbo-2024-04-09, o1-preview, o1-mini
-- **Tom de escrita**: Professional, Exciting, Friendly, Witty, Humorous, Convincing, Empathetic, Inspiring, Supportive, Trusting, Playful, Excited, Positive, Negative, Engaging, Worried, Urgent, Passionate, Informative, Funny, Casual, Sarcastic, Dramatic
-- **Criatividade**: Repetitivo, Determinístico, Original, Criativo, Imaginativo
-- **Ponto de vista**: Primeira pessoa, segunda pessoa, terceira pessoa
-- **Idioma**: Albanian (Albania), Arabic, Bangla (Bangladesh), Bengali (India), Bulgarian (Bulgaria), Catalan (Spain), Chinese (Mandarin), Croatian (Croatia), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (UK), English (USA), Estonian (Estonia), Filipino (Philippines), Finnish (Finland), French (France), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Icelandic (Iceland), Indonesian (Indonesia), Irish (Ireland), Italian (Italy), Japanese (Japan), Khmer (Cambodia), Korean (South Korea), Latvian (Latvia), Lithuanian (Lithuania), Macedonian (Macedonia), Malay (Malaysia), Maltese (Malta), Norwegian (Norway), Persian (Iran), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Serbian (Serbia), Slovak (Slovakia), Slovenian (Slovenia), Spanish (Spain), Swahili (Kenya), Swedish (Sweden), Tamil (Malaysia), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (Wales)
+## Modelos de IA
+- OpenAI Gpt 3.5 Turbo 0125
+- OpenAI Gpt 4
+- OpenAI Gpt 4o
+- OpenAI Gpt 4o Mini
+- OpenAI Gpt 4 Turbo
+- OpenAI Gpt 4 Turbo with Vision
+- OpenAI O1 Preview
+- OpenAI O1 Mini
+
+## Tom de escrita
+- Profissional
+- Empolgante
+- Amigável
+- Engraçado
+- Humorístico
+- Convincente
+- Empático
+- Inspirador
+- Solidário
+- Confiável
+- Brincalhão
+- Animado
+- Positivo
+- Negativo
+- Envolvente
+- Preocupado
+- Urgente
+- Apaixonado
+- Informativo
+- Divertido
+- Casual
+- Sarcástico
+- Dramático
+
+## Criatividade
+- Repetitivo
+- Determinístico
+- Original
+- Criativo
+- Imaginativo
+
+## Ponto de Vista
+- Primeira pessoa
+- Segunda pessoa
+- Terceira pessoa
+
+## Idioma
+- Albanian (Albania)
+- Arabic
+- Bangla (Bangladesh)
+- Bengali (India)
+- Bulgarian (Bulgaria)
+- Catalan (Spain)
+- Chinese (Mandarin)
+- Croatian (Croatia)
+- Czech (Czech Republic)
+- Danish (Denmark)
+- Dutch (Netherlands)
+- English (UK)
+- English (USA)
+- Estonian (Estonia)
+- Filipino (Philippines)
+- Finnish (Finland)
+- French (France)
+- German (Germany)
+- Greek (Greece)
+- Hebrew (Israel)
+- Hindi (India)
+- Hungarian (Hungary)
+- Icelandic (Iceland)
+- Indonesian (Indonesia)
+- Irish (Ireland)
+- Italian (Italy)
+- Japanese (Japan)
+- Khmer (Cambodia)
+- Korean (South Korea)
+- Latvian (Latvia)
+- Lithuanian (Lithuania)
+- Macedonian (Macedonia)
+- Malay (Malaysia)
+- Maltese (Malta)
+- Norwegian (Norway)
+- Persian (Iran)
+- Polish (Poland)
+- Portuguese (Brazil)
+- Portuguese (Portugal)
+- Romanian (Romania)
+- Russian (Russia)
+- Serbian (Serbia)
+- Slovak (Slovakia)
+- Slovenian (Slovenia)
+- Spanish (Spain)
+- Swahili (Kenya)
+- Swedish (Sweden)
+- Tamil (Malaysia)
+- Thai (Thailand)
+- Turkish (Turkey)
+- Ukrainian (Ukraine)
+- Vietnamese (Vietnam)
+- Welsh (Wales)
