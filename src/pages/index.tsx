@@ -25,7 +25,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Bem vindo ao ${siteConfig.title}`}
       description="Documentação Total Gen AI">
       <HomepageHeader />
       <main>
