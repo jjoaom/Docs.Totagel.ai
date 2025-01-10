@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Docs Totalgen',
   tagline: 'Totalgen.ai',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/logo-totalgen.png',
 
   // Set the production url of your site here
   url: 'https://docs.totalgen.ai',
