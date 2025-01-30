@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import { IconType } from 'react-icons';
-import { FaImage, FaComment, FaMicrophone, FaSearch, FaFileAlt, FaExclamationTriangle } from 'react-icons/fa';
+import { FaImage, FaComment, FaMicrophone, FaCode , FaFileAlt, FaExclamationTriangle } from 'react-icons/fa';
 
 
 type FeatureItem = {
@@ -54,11 +54,11 @@ const FeatureList: FeatureItem[] = [
 
   },
   {
-    title: 'Visão Computacional e Desenvolvimento',
-    Icon: FaSearch,
+    title: 'Desenvolvimento e Código IA',
+    Icon: FaCode ,
     description: (
       <>
-        Explore a inteligência artificial aplicada à visão computacional e desenvolvimento de código
+        Descubra como a inteligência artificial pode revolucionar o desenvolvimento de software
       </>
     ),
 
