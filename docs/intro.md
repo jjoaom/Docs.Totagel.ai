@@ -13,6 +13,8 @@ Este site documenta todas as ferramentas disponíveis em nossa plataforma IA, aj
 - [Assistente de Artigos de IA](Criação%20de%20Conteúdo%20IA/assistente-artigos-ia.md)
 - [AI ReWriter](Criação%20de%20Conteúdo%20IA/ai-rewriter.md)
 - [Editor Inteligente](Criação%20de%20Conteúdo%20IA/editor-inteligente.md)
+- [Gerador de Código IA](Criação%20de%20Conteúdo%20IA/codigo-ia.md)
+- [Visão de IA](Criação%20de%20Conteúdo%20IA/visao-ia.md)
 
 ### Análise de Conteúdo IA
 - [Verificador de Plágio IA](Análise%20de%20Conteúdo%20IA/verificador-plagio-ia.md)
@@ -28,13 +30,11 @@ Este site documenta todas as ferramentas disponíveis em nossa plataforma IA, aj
 - [Voz da Marca](Narração%20e%20Áudio%20IA/voz-da-marca.md)
 
 ### Interação IA
+- [Prompt amplo](Interação%20IA/prompt-amplo-id.md)
 - [Assistentes de Chat IA](Interação%20IA/chat-ia.md)
 - [Bate-papo de Arquivo IA](Interação%20IA/bate-papo-arquivo-ia.md)
 - [Bate-papo da Web IA](Interação%20IA/bate-papo-web-ia.md)
 
-### Visão Computacional e Desenvolvimento
-- [Gerador de Código IA](Vis%C3%A3o%20e%20Desenvolvimento%20de%20C%C3%B3digo/codigo-ia.md)
-- [Visão de IA](Vis%C3%A3o%20e%20Desenvolvimento%20de%20C%C3%B3digo/visao-ia.md)
 
 ## Acesso ao Atendimento TotalGen
 [Acesse aqui](https://chat.nbh.com.br/my-typebot-ts07brk)

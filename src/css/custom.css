@@ -1,3 +1,5 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 :root {
   --ifm-color-primary: #8660aa;
   --ifm-color-primary-dark: #7a5699;
@@ -50,3 +52,6 @@
   border-color: var(--image-box-hover-border-color);
   color: var(--image-box-hover-color);
 }
+
+
+
