@@ -1,6 +1,6 @@
 import ImageWithWatermark from '@site/src/components/ImageWithWatermark/ImageWithWatermark';
 
-# Tutorial: Como usar o Prompt Amplo IA
+# Prompt Amplo IA
 
 <ImageWithWatermark imageSrc='/tutorials/criacaodeconteudoia/promptamplo/1.png'/>
 

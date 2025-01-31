@@ -22,6 +22,46 @@
     width: 100%;
 }
 
+
+/* Estilo do fundo desfocado */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fundo escuro e semi-transparente */
+    backdrop-filter: blur(5px); /* Efeito de blur no fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Para garantir que o modal fique acima de outros elementos */
+  }
+  
+  /* Estilo do conteúdo do modal */
+  .modalContent {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+/* Estilo do botão de fechar */
+.closeButton {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 1200px) {
     .heroBanner {
