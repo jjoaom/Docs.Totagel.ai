@@ -1,3 +1,15 @@
+---
+id: bate-papo-arquivo-ia
+title: Bate-papo de Arquivo de IA
+description: Analise o conteúdo de seus documentos Word, PDF ou CSV com a ajuda da IA para obter insights, resumos ou esclarecimentos sobre o conteúdo.
+slug: /bate-papo-arquivo-ia
+sidebar_position: 13
+tags: [IA, bate-papo, análise de documentos, Word, PDF, CSV, análise de conteúdo]
+keywords: [bate-papo, análise de documentos, IA, Word, PDF, CSV, insights, resumos]
+pagination_label: Análise de Arquivos com IA
+hide_title: false
+hide_table_of_contents: false
+---
 # Bate-papo de Arquivo de IA
 
 ## Descrição

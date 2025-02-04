@@ -1,3 +1,15 @@
+---
+id: gerador-codigo-ia
+title: Gerador de Código de IA
+description: Crie códigos de diversas linguagens de programação com apenas comandos de texto. Forneça instruções claras e obtenha o código desejado.
+slug: /gerador-codigo-ia
+sidebar_position: 8
+tags: [IA, código, programação, gerador de código, desenvolvimento]
+keywords: [gerador de código, IA, programação, linguagens de programação, Python, JavaScript]
+pagination_label: Gerar Código
+hide_title: false
+hide_table_of_contents: false
+---
 # Gerador de Código de IA
 
 O Gerador de Código de IA permite criar vários códigos usando apenas comandos de texto. Este documento fornece instruções claras e coesas sobre como utilizar essa ferramenta.

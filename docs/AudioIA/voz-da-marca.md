@@ -1,3 +1,16 @@
+---
+id: voz-da-marca
+title: Voz da Marca
+description: Crie uma voz personalizada para sua marca, alinhada com seu público e valores, para uma comunicação consistente e eficaz.
+slug: /voz-da-marca
+sidebar_position: 5
+tags: [marca, personalização, voz de marca, branding, comunicação]
+keywords: [marca, voz da marca, branding, personalização, marketing]
+pagination_label: Personalização de Voz
+hide_title: false
+hide_table_of_contents: false
+---
+
 # Voz da Marca
 
 ## Nova Voz da Marca

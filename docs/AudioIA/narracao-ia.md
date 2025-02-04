@@ -1,3 +1,17 @@
+---
+id: estudio-narracao-ia
+title: Estúdio de Narração IA (Texto para Fala)
+description: Transforme seu texto em fala com uma ampla variedade de vozes e idiomas. Crie arquivos de áudio personalizados.
+slug: /estudio-narracao-ia
+sidebar_position: 4
+tags: [IA, texto para fala, narração, clonagem de voz, síntese de fala]
+keywords: [inteligência artificial, texto para fala, clonagem de voz, áudio, vozes neurais]
+pagination_label: Estúdio de Narração
+hide_title: false
+hide_table_of_contents: false
+
+---
+
 # Estúdio de Narração IA (Texto para Fala)
 
 ## Saldo Disponível

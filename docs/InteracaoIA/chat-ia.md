@@ -1,3 +1,15 @@
+---
+id: assistentes-chat-ia
+title: Assistentes de Chat IA
+description: Explore uma linha de assistentes de chat IA incríveis para diversas áreas, como negócios, educação, saúde e muito mais.
+slug: /assistentes-chat-ia
+sidebar_position: 15
+tags: [IA, assistentes de chat, coach, negócios, saúde, educação, especialistas]
+keywords: [assistente IA, coach motivacional, consultor, saúde mental, assistente jurídico, tutor, segurança cibernética]
+pagination_label: Assistentes de Chat IA
+hide_title: false
+hide_table_of_contents: false
+---
 # Assistentes de Chat IA
 
 Encontre seu assistente IA rapidamente! Prepare-se para explorar nossa fantástica linha de assistentes de chat IA.

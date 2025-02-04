@@ -1,4 +1,16 @@
-# Funcionalidade de Bate-Papo para Geração de Imagens IA
+---
+id: funcionalidade-bate-papo-geracao-imagens-ia
+title: Funcionalidade de Bate-Papo para Geração de Imagens IA
+description: Permita que os usuários descrevam imagens diretamente no chat e gerem imagens com base em suas descrições detalhadas. Utilize prompts para facilitar a criação de descrições precisas e realistas.
+slug: /funcionalidade-bate-papo-geracao-imagens-ia
+sidebar_position: 12
+tags: [IA, bate-papo, geração de imagem, descrição de imagem, criação de conteúdo]
+keywords: [bate-papo, geração de imagem, IA, descrição detalhada, prompts, criar imagens]
+pagination_label: Geração de Imagens via Bate-Papo
+hide_title: false
+hide_table_of_contents: false
+---
+# Bate-Papo para Geração de Imagens IA
 
 ## Descrição
 A funcionalidade de bate-papo permite que os usuários descrevam os detalhes de uma imagem diretamente no chat e enviem a descrição para gerar a imagem desejada. Esta funcionalidade utiliza uma biblioteca de prompts para facilitar a criação de descrições detalhadas e precisas.

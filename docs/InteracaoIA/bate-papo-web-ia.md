@@ -1,3 +1,15 @@
+---
+id: bate-papo-web-ia
+title: Bate-papo da Web de IA
+description: Transforme seu site em conversas dinâmicas e inteligentes, com análise e interação via IA.
+slug: /bate-papo-web-ia
+sidebar_position: 14
+tags: [IA, bate-papo, análise de sites, Chat GPT, URL, interatividade]
+keywords: [bate-papo, análise de URL, Chat GPT, e-commerce, blogs, portfólio, insights]
+pagination_label: Análise de Sites com IA
+hide_title: false
+hide_table_of_contents: false
+---
 # Bate-papo da Web de IA
 
 Transforme seu site em conversas dinâmicas inteligentes.

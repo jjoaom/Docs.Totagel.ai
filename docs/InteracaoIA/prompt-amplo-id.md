@@ -1,3 +1,16 @@
+---
+id: prompt-amplo-ia
+title: Prompt Amplo IA
+description: Entenda o conceito de prompt e como utilizá-lo para interagir com modelos de IA, além de explorar exemplos e melhores práticas.
+slug: /prompt-amplo-ia
+sidebar_position: 16
+tags: [prompt, IA, inteligência artificial, assistente virtual]
+keywords: [prompt IA, como usar prompt, interação IA, perguntas para IA]
+pagination_label: Prompt Amplo IA
+hide_title: false
+hide_table_of_contents: false
+---
+
 import ImageWithWatermark from '@site/src/components/ImageWithWatermark/ImageWithWatermark';
 
 # Prompt Amplo IA

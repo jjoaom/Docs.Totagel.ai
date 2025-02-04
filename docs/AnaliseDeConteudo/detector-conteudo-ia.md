@@ -1,3 +1,17 @@
+---
+id: detector-conteudo
+title: Detector de Conteúdo IA
+description: Explore modelos avançados de IA para criação de conteúdo.
+slug: /detector-conteudo-ia
+sidebar_position: 1
+tags: [IA, conteúdo, escritor IA, modelos IA, totalgen]
+keywords: [inteligência artificial, geração de conteúdo, modelos IA]
+pagination_label: Introdução
+hide_title: false
+hide_table_of_contents: false
+
+---
+
 # Detector de Conteúdo de IA
 
 ## Identificar conteúdo de IA em seu texto de destino

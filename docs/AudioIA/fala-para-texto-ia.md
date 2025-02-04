@@ -1,3 +1,17 @@
+---
+id: fala-para-texto-ia
+title: Fala para Texto IA
+description: Este serviço permite transcrever seus arquivos de áudio e traduzi-los para o inglês.
+slug: /fala-para-texto
+sidebar_position: 3
+tags: [IA, transcrição, tradução, áudio, transcrição de áudio]
+keywords: [inteligência artificial, transcrição de áudio, tradução, transcrição para inglês]
+pagination_label: Transcrição de Áudio
+hide_title: false
+hide_table_of_contents: false
+
+---
+
 # Fala para Texto IA
 
 Este serviço permite transcrever seus arquivos de áudio e traduzi-los para o inglês.

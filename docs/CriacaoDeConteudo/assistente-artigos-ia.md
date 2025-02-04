@@ -1,3 +1,16 @@
+---
+id: assistente-artigos-ia
+title: Assistente de Artigos de IA
+description: Crie artigos de forma eficiente e estruturada com a ajuda de IA. Siga etapas guiadas para gerar conteúdo de alta qualidade.
+slug: /assistente-artigos
+sidebar_position: 7
+tags: [IA, criação de conteúdo, artigos, escrita, brainstorming]
+keywords: [assistente de artigos, IA, criação de conteúdo, redação, estrutura de artigos]
+pagination_label: Criação de Artigos
+hide_title: false
+hide_table_of_contents: false
+---
+
 # Assistente de Artigos de IA
 
 ## Etapas para Criação de Conteúdo
