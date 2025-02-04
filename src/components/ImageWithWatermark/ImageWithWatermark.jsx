@@ -95,7 +95,7 @@ const ImageWithWatermark = ({ imageSrc }) => {
               ref={canvasRef}
               style={{ display: "block", width: "100%" }}
             />
-            <div className="position-absolute top-0 end-0 p-2 bg-dark text-white opacity-75">
+            <div className="position-absolute top-0 end-0 p-2 opacity-75">
               <i className="bi bi-zoom-in"></i>
             </div>
           </div>

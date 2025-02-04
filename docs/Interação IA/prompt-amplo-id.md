@@ -2,7 +2,7 @@ import ImageWithWatermark from '@site/src/components/ImageWithWatermark/ImageWit
 
 # Prompt Amplo IA
 
-<ImageWithWatermark imageSrc='/tutorials/criacaodeconteudoia/promptamplo/1.png'/>
+<ImageWithWatermark imageSrc='/tutorials/promptamplo/1.png'/>
 
 
 ## O que é um Prompt?
@@ -15,7 +15,7 @@ Um prompt é uma instrução ou pergunta que você fornece a um modelo de Inteli
 
 Primeiro, selecione o modelo de IA que você deseja utilizar. Por exemplo, você pode escolher o modelo **OpenAI | GPT 3.5 Turbo**.
 
-<ImageWithWatermark imageSrc='/tutorials/criacaodeconteudoia/promptamplo/2.png'/>
+<ImageWithWatermark imageSrc='/tutorials/promptamplo/2.png'/>
 
 Modelos disponíveis:
 
@@ -54,13 +54,13 @@ Beijinho
 Cocada cremosa
 Mousse de maracujá"
 
-<ImageWithWatermark imageSrc='/tutorials/criacaodeconteudoia/promptamplo/3.png'/>
+<ImageWithWatermark imageSrc='/tutorials/promptamplo/3.png'/>
 
 Após preencher o campo **Texto Alvo**, clique no botão  <button class="btn btn-primary rounded-pill" type="button">Gerar</button>   para obter a resposta da IA.
 
 
 ### 4. Resultado 
 
-<ImageWithWatermark imageSrc='/tutorials/criacaodeconteudoia/promptamplo/4.png'/>
+<ImageWithWatermark imageSrc='/tutorials/promptamplo/4.png'/>
 
 Siga esses passos simples para interagir com a IA e obter as respostas que você precisa!

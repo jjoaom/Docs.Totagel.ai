@@ -10,7 +10,7 @@ pagination_label: Modelos de Escrita de IA
 hide_title: false
 hide_table_of_contents: false
 ---
-
+import ImageWithWatermark from '@site/src/components/ImageWithWatermark/ImageWithWatermark';
 import { FiFileText, FiShoppingBag, FiMail, FiLayout, FiVideo, FiMusic, FiGlobe, FiSmile, FiBook, FiZap, FiTarget, FiUsers } from 'react-icons/fi';
 import { PiMoneyWavy } from "react-icons/pi";
 
@@ -18,18 +18,22 @@ import { PiMoneyWavy } from "react-icons/pi";
 
 Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explorar nossa fantástica linha de modelos.
 
+## Passo a Passo para Gerar um documento com IA:
+
+### 1. Escolha o Modelo de Escrita
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/1.png'/>
+
 ### Todos os Modelos
+
 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
 
   <div className="col">
     <div className="card h-100 border-0 shadow-sm">
-      <div className="card-header bg-light p-3 p-3">
-        <h5 className="mb-0">
-          <FiZap className="text-warning me-2" />
-          Ads
-        </h5>
+      <div className="card-header">
+        <h4 className="mb-0"><FiZap className="text-warning me-2" />Ads</h4>
       </div>
-      <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto' }}>
+      <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
         <ul className="list-unstyled mb-0">
           <li className="d-flex align-items-start mb-3">
             <FiTarget className="text-muted me-2" />
@@ -51,13 +55,9 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
     </div>
   </div>
 
-
-
-
-
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiFileText className="text-success me-2" />Blog</h4>
     </div>
    <div className="card-body p-3" style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
@@ -104,10 +104,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiFileText className="text-info me-2" />Conteúdos</h4>
     </div>
-    <div className="card-body p-3" style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3" style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiFileText className="text-muted me-2" />
@@ -256,10 +256,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><PiMoneyWavy className="text-success me-2" />Ecommerce</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiFileText className="text-muted me-2" />
@@ -309,10 +309,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 </div>
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiMail className="text-primary me-2" />Emails</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiMail className="text-muted me-2" />
@@ -349,10 +349,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiLayout className="text-info me-2" />Frameworks</h4>
     </div>
-    <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiLayout className="text-muted me-2" />
@@ -389,10 +389,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiShoppingBag className="text-warning me-2" />Marketing</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiShoppingBag className="text-muted me-2" />
@@ -422,10 +422,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiUsers className="text-info me-2" />Redes Sociais</h4>
     </div>
-    <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3 " style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiUsers className="text-muted me-2" />
@@ -518,10 +518,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiVideo className="text-danger me-2" />Vídeo</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiVideo className="text-muted me-2" />
@@ -565,10 +565,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiGlobe className="text-primary me-2" />Sites</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiGlobe className="text-muted me-2" />
@@ -619,10 +619,10 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 <div className="col">
   <div className="card h-100 border-0 shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h4 className="mb-0"><FiFileText className="text-dark me-2" />Outro</h4>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0">
         <li className="d-flex align-items-center mb-2">
           <FiFileText className="text-muted me-2" />
@@ -645,88 +645,29 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
 
 </div>
 
-### Atributos de Escrita
+### 2. Verifique seu Saldo Disponível
+Antes de começar, certifique-se de que você tem saldo suficiente para gerar o documento.
 
-<div className="row g-4">
+<ImageWithWatermark imageSrc='/tutorials/escritoria/2.png'/>
 
-<div className="col-md-6 col-lg-3">
+### 3. Inclua sua Marca (Opcional)
+Se desejar, você pode personalizar os títulos com o nome da sua **marca**. Isso pode aumentar o reconhecimento da marca e gerar mais confiança no cliente.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/3.png'/>
+
+### 4. Idioma
+Escolha o **idioma** que deseja usar nos seus títulos. 
+- Utilize o campo para selecionar o idioma que melhor se adequa ao seu público.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/4.png'/>
+
+#### Idiomas Disponíveis:
+<div className="col-md-6 col-lg-4 p-3">
   <div className="card h-100 border shadow-sm">
-    <div className="card-header bg-light p-3">
-      <h5 className="mb-0"><FiZap className="text-primary me-2" />Modelos de IA</h5>
-    </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
-      <ul className="list-unstyled mb-0 columns-md-2">
-        <li className="text-truncate small">OpenAI Gpt 3.5 Turbo 0125</li>
-        <li className="text-truncate small">OpenAI Gpt 4</li>
-        <li className="text-truncate small">OpenAI Gpt 4o</li>
-        <li className="text-truncate small">OpenAI Gpt 4o Mini</li>
-        <li className="text-truncate small">OpenAI Gpt 4 Turbo</li>
-        <li className="text-truncate small">OpenAI Gpt 4 Turbo with Vision</li>
-        <li className="text-truncate small">OpenAI O1 Preview</li>
-        <li className="text-truncate small">OpenAI O1 Mini</li>     
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div className="col-md-6 col-lg-3">
-  <div className="card h-100 border shadow-sm">
-    <div className="card-header bg-light p-3">
-      <h5 className="mb-0"><FiSmile className="text-success me-2" />Tom de Escrita</h5>
-    </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
-      <ul className="list-unstyled mb-0 columns-md-2">
-        <li className="text-truncate small">Profissional</li>
-        <li className="text-truncate small">Empolgante</li>
-        <li className="text-truncate small">Amigável</li>
-        <li className="text-truncate small">Engraçado</li>
-        <li className="text-truncate small">Humorístico</li>
-        <li className="text-truncate small">Convincente</li>
-        <li className="text-truncate small">Empático</li>
-        <li className="text-truncate small">Inspirador</li>
-        <li className="text-truncate small">Solidário</li>
-        <li className="text-truncate small">Confiável</li>
-        <li className="text-truncate small">Brincalhão</li>
-        <li className="text-truncate small">Animado</li>
-        <li className="text-truncate small">Positivo</li>
-        <li className="text-truncate small">Negativo</li>
-        <li className="text-truncate small">Envolvente</li>
-        <li className="text-truncate small">Preocupado</li>
-        <li className="text-truncate small">Urgente</li>
-        <li className="text-truncate small">Apaixonado</li>
-        <li className="text-truncate small">Informativo</li>
-        <li className="text-truncate small">Divertido</li>
-        <li className="text-truncate small">Casual</li>
-        <li className="text-truncate small">Sarcástico</li>
-        <li className="text-truncate small">Dramático</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div className="col-md-6 col-lg-3">
-  <div className="card h-100 border shadow-sm">
-    <div className="card-header bg-light p-3">
-      <h5 className="mb-0"><FiUsers className="text-warning me-2" />Criatividade</h5>
-    </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
-      <ul className="list-unstyled mb-0">
-        <li className="small">Repetitivo</li>
-        <li className="small">Determinístico</li>
-        <li className="small">Original</li>
-        <li className="small">Criativo</li>
-        <li className="small">Imaginativo</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div className="col-md-6 col-lg-3">
-  <div className="card h-100 border shadow-sm">
-    <div className="card-header bg-light p-3">
+    <div className="card-header">
       <h5 className="mb-0"><FiGlobe className="text-info me-2" />Idioma</h5>
     </div>
-    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto' }}>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
       <ul className="list-unstyled mb-0 columns-md-3">
         <li className="text-truncate small">Português (BR)</li>
         <li className="text-truncate small">English (US)</li>
@@ -788,4 +729,152 @@ Procurando aquele conteúdo perfeito? Não procure mais! Prepare-se para explora
   </div>
 </div>
 
+### 5. Descrição do Produto
+Insira a **descrição do seu produto** no campo de texto.
+- **Limite**: 0 a 2000 caracteres.
+- Seja claro e objetivo, destacando os pontos fortes do seu produto.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/5.png'/>
+
+#### Modelo de IA:
+Escolha o **modelo de IA** que deseja utilizar para gerar o documento.
+
+#### Opções de Modelo de IA:
+<div className="col-md-6 col-lg-3 mb-4">
+  <div className="card h-100 border shadow-sm">
+    <div className="card-header">
+      <h5 className="mb-0"><FiZap className="text-primary me-2" />Modelos de IA</h5>
+    </div>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
+      <ul className="list-unstyled mb-0 columns-md-2">
+        <li className="text-truncate small">OpenAI Gpt 3.5 Turbo 0125</li>
+        <li className="text-truncate small">OpenAI Gpt 4</li>
+        <li className="text-truncate small">OpenAI Gpt 4o</li>
+        <li className="text-truncate small">OpenAI Gpt 4o Mini</li>
+        <li className="text-truncate small">OpenAI Gpt 4 Turbo</li>
+        <li className="text-truncate small">OpenAI Gpt 4 Turbo with Vision</li>
+        <li className="text-truncate small">OpenAI O1 Preview</li>
+        <li className="text-truncate small">OpenAI O1 Mini</li>     
+      </ul>
+    </div>
+  </div>
 </div>
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/6.png'/>
+
+### 6. Atributos de Escrita
+
+#### Criatividade
+
+Criatividade é a capacidade de gerar ideias novas e originais, combinando elementos de maneiras inovadoras. É essencial para a criação de conteúdo que se destaque e engaje o público. Escolha o nível de criatividade que deseja aplicar ao seu texto:
+
+##### Opções de Criatividade:
+<div className="col-md-6 col-lg-3 mb-4">
+  <div className="card h-100 border shadow-sm">
+    <div className="card-header">
+      <h5 className="mb-0"><FiUsers className="text-warning me-2" />Criatividade</h5>
+    </div>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
+      <ul className="list-unstyled mb-0">
+        <li className="small">Repetitivo</li>
+        <li className="small">Determinístico</li>
+        <li className="small">Original</li>
+        <li className="small">Criativo</li>
+        <li className="small">Imaginativo</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/7.png'/>
+
+
+#### Tom de Escrita
+Escolha o **tom de escrita** que deseja aplicar ao seu conteúdo. O tom de escrita pode influenciar a forma como sua mensagem é recebida pelo público.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/8.png'/>
+
+##### Opções de Tom de Escrita:
+<div className="col-md-6 col-lg-3">
+  <div className="card h-100 border shadow-sm">
+    <div className="card-header">
+      <h5 className="mb-0"><FiSmile className="text-success me-2" />Tom de Escrita</h5>
+    </div>
+    <div className="card-body p-3"  style={{ maxHeight: '200px', overflowY: 'auto', overflowX: 'hidden' }}>
+      <ul className="list-unstyled mb-0 columns-md-2">
+        <li className="text-truncate small">Profissional</li>
+        <li className="text-truncate small">Empolgante</li>
+        <li className="text-truncate small">Amigável</li>
+        <li className="text-truncate small">Engraçado</li>
+        <li className="text-truncate small">Humorístico</li>
+        <li className="text-truncate small">Convincente</li>
+        <li className="text-truncate small">Empático</li>
+        <li className="text-truncate small">Inspirador</li>
+        <li className="text-truncate small">Solidário</li>
+        <li className="text-truncate small">Confiável</li>
+        <li className="text-truncate small">Brincalhão</li>
+        <li className="text-truncate small">Animado</li>
+        <li className="text-truncate small">Positivo</li>
+        <li className="text-truncate small">Negativo</li>
+        <li className="text-truncate small">Envolvente</li>
+        <li className="text-truncate small">Preocupado</li>
+        <li className="text-truncate small">Urgente</li>
+        <li className="text-truncate small">Apaixonado</li>
+        <li className="text-truncate small">Informativo</li>
+        <li className="text-truncate small">Divertido</li>
+        <li className="text-truncate small">Casual</li>
+        <li className="text-truncate small">Sarcástico</li>
+        <li className="text-truncate small">Dramático</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### 7. Resultado
+
+Clique em **Gerar** para obter o conteúdo criado pela IA. O resultado será exibido na tela e você poderá copiá-lo ou fazer ajustes conforme necessário.
+
+No nosso tutorial, vamos pedir ao TotalGen para gerar: **"quero criar um título para divulgar minhas vendas de doce de leite caseiro nas redes sociais. Me ajude a chamar atenção do público de uma forma descontraída."** utilizando o GPT 3.5 Turbo com Criatividade **Criativo** e Tom de Voz **Convincente**.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/9.png'/>
+
+### 8. Opções extras
+
+Além das funcionalidades básicas, você também pode:
+
+- **Gerar utilizando acesso à internet**: Conecte-se à internet para acessar modelos de IA mais avançados e atualizados.
+- **Salvar o documento**: Salve seu documento diretamente na plataforma para futuras edições.
+- **Exportar em diferentes formatos**: Exporte seu conteúdo em diversos formatos, incluindo texto simples, HTML, arquivo de texto e MS Word.
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/10.png'/>
+
+### 9. Criar Modelo Personalizado
+
+Você pode criar um modelo personalizado para atender às suas necessidades específicas de geração de conteúdo.
+Clique em **Criar modelo personalizado** 
+<ImageWithWatermark imageSrc='/tutorials/escritoria/11.png'/>
+
+Preencha as informações necessárias para criar o modelo:
+
+- **Nome do Modelo**: Forneça o nome do modelo.
+- **Descrição do Modelo**: Forneça uma descrição detalhada do modelo.
+- **Categoria do Modelo**: Selecione a categoria apropriada, como "Ads".
+- **Ícone do Modelo**: Escolha um ícone para representar o modelo, por exemplo, `<i class='fa-solid fa-books'></i>`.
+- **Ativar Modelo**: Ative o modelo para torná-lo disponível para uso.
+
+#### Campos de Entrada do Usuário
+
+- **Título do Campo de Entrada**: Digite o título do campo de entrada (Obrigatório).
+- **Descrição do Campo de Entrada**: Digite a descrição do campo de entrada (Obrigatório).
+
+#### Prompt Personalizado
+
+- **Input Field**: Adicione campos de entrada adicionais conforme necessário.
+- **Opcional**: Inclua prompts personalizados para guiar o usuário na criação do conteúdo.
+
+Clique em **Criar Modelo**
+
+<ImageWithWatermark imageSrc='/tutorials/escritoria/12.png'/>
+
+## Fim
